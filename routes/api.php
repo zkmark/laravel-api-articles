@@ -19,7 +19,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 */
 
-//https://medium.com/modulr/create-api-authentication-with-passport-of-laravel-5-6-1dc2d400a7f
+// Auth integrada con laravel passport usando el siguiente tutorial
+// https://medium.com/modulr/create-api-authentication-with-passport-of-laravel-5-6-1dc2d400a7f
 Route::group([
     'prefix' => 'auth'
 ], function () {
